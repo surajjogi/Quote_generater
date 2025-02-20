@@ -22,7 +22,7 @@ This is a simple **🎲 Random Quote Generator** built using **🌐📄, 🎨�
 ## 📥 Installation & Usage
 1. **⬇️ Download or 🌀 Clone** this repository.
    ```sh
-   git clone https://github.com/yourusername/random-quote-generator.git
+ https://github.com/surajjogi/quote_generater.git
    ```
 2. Open the `index.html` file in your 🌐.
 3. Click the **🎲 Generate Quote** 🔘 to get a new 🎴.
