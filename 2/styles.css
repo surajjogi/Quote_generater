@@ -1,0 +1,57 @@
+/* Default (Day Mode) Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#quoteBox {
+    margin-bottom: 20px;
+}
+
+/* Night Mode Styles */
+.night-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.night-mode .container {
+    background-color: #444;
+}
+
+.night-mode button {
+    background-color: #0056b3;
+}
+
+.night-mode button:hover {
+    background-color: #007bff;
+}
